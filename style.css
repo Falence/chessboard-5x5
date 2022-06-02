@@ -16,13 +16,6 @@ body {
 	padding: 3rem;
 }
 
-/* .viewport {
-	background-color: #eee;
-	height: 100vh;
-    position: relative;
-    padding: 3rem;
-} */
-
 h1 {
 	text-align: center;
 	font-size: 5rem;
@@ -46,6 +39,7 @@ td {
 	height: 8rem;
 	font-size: 3rem;
 	text-align: center;
+	transition: all .2s;
 }
 
 td:hover {
