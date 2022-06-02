@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	background-color: #eee;
+	height: 70rem;
+	position: relative;
+	padding: 3rem;
+}
+
+/* .viewport {
+	background-color: #eee;
+	height: 100vh;
+    position: relative;
+    padding: 3rem;
+} */
+
+h1 {
+	text-align: center;
+	font-size: 5rem;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.chessboard {
+	border: 0.7rem solid black;
+	border-collapse: collapse;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+td {
+	width: 8rem;
+	height: 8rem;
+	font-size: 3rem;
+	text-align: center;
+}
+
+td:hover {
+	cursor: pointer;
+	outline: 0.4rem solid rgb(0, 206, 0);
+}
+
+td:active {
+	background-color: aqua;
+}
+
+.dark-cell {
+	background-color: brown;
+	color: white;
+}
+
+.light-cell:active {
+	background-color: rgb(158, 148, 134);
+}
+
+.dark-cell:active {
+	background-color: rgb(100, 26, 26);
+}
+
+.light-cell:active {
+	background-color: rgb(158, 148, 134);
+}
